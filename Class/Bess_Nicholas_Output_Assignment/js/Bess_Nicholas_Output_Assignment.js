@@ -10,11 +10,14 @@ var birthMonth = "February";//Assigns string variable
 var birthDay = 22; //Assigns number variable
 var birthYear = 1983; //Assigns number variable
 var birthdayGreeting = "I was born on";//Assigns string variable
+var farewellGreeting = "That's a \"Tad-bit\" of information about me.";//Assigns string variable containing escape characters
+var thankYouMessage = "Thanks for your time";//Assigns string variable
 
 var greetingMessage = myGreeting + " " + myBirthplace;//Assigns concatenated string
 var birthdayMessage = birthdayGreeting + " " + birthDay + " " + birthMonth + " " + birthYear;//Assigns concatenated string
+var farewellMessage = farewellGreeting + " " + thankYouMessage;//Assigns concatenated string
 
 
-
-console.log(greetingMessage);//Tells console to display greetingMessage
-console.log(birthdayMessage);//Tells console to display birthdayMessage
+console.log(greetingMessage);//Tells console to display variable declared by greetingMessage
+console.log(birthdayMessage);//Tells console to display variable declared by birthdayMessage
+console.log(farewellMessage);//Tells console to display variable declared by farewellMessage
