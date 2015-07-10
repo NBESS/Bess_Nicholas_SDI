@@ -18,3 +18,8 @@ var mothersAge = 55;  // number variable
 var isStudent = false;
 
 var firstName = "Nick";
+
+var muppetNames = ["Kermit", "Miss Piggy" , firstName , "Gonzo"]; //0,1,2,3
+
+console.log(muppetNames[3]);
+
