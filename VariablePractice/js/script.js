@@ -12,3 +12,9 @@ console.log(age);
 var yearOfBirth = 1983;  //declaring and defining on the same line
 
 console.log(yearOfBirth);
+
+var mothersAge = 55;  // number variable
+
+var isStudent = false;
+
+var firstName = "Nick";
