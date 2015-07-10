@@ -3,16 +3,18 @@
  */
 //Nicholas Bess, Term: C201507, Assignment: Output Assignment
 
-var myBirthplace = "San Diego, CA";
-var myGreeting = "Hi, my name is Nicholas Bess. I was born in";
-var isMale = true;
-var birthMonth = "February";
-var birthDay = 22;
-var birthYear = 1983;
-var birthdayGreeting = "I was born on";
+var myBirthplace = "San Diego, CA"; //Assigns string variable
+var myGreeting = "Hi, my name is Nicholas Bess. I was born in";//Assigns string variable
+var isMale = true;//Assigns Boolean variable
+var birthMonth = "February";//Assigns string variable
+var birthDay = 22; //Assigns number variable
+var birthYear = 1983; //Assigns number variable
+var birthdayGreeting = "I was born on";//Assigns string variable
 
 var greetingMessage = myGreeting + " " + myBirthplace;
-var birthdayMessage = birthDay + " " + birthMonth + " " + birthYear;
+var birthdayMessage = birthdayGreeting + " " + birthDay + " " + birthMonth + " " + birthYear;
+
+
 
 console.log(greetingMessage);
 console.log(birthdayMessage);
