@@ -66,9 +66,37 @@ console.log("You have spent a total of " + "$" + totalGrocery + " on groceries o
 
 //Calculate discounted price for an item
 
-var originalPrice = 10;
-var discountAmount = 20;
-var discountPercentage = discountAmount / 100;
+var originalPrice = 59.99;
+var discountPercent = 25;
+var itemDescription = "XBox One video game";
+
+//divide percent of discount by 100
+
+var discountPercentage = discountPercent / 100;
+
+//multiplying original price by discount percentage
+
+var discountAmount = originalPrice * discountPercentage;
+
+//subtract discount amount from original price
+
+var discountedPrice = originalPrice - discountAmount;
+
+//determine sales tax
+
 var salesTax = 9;
 
-console.log(discountPercentage);
+//divide percent of sales tax by 100
+
+var taxPercentage = salesTax / 100;
+
+//multiply total by tax percentage
+
+var taxAmount = discountedPrice * taxPercentage;
+
+//add tax amount to discounted price
+
+var totalWithTax = discountedPrice + taxAmount;
+
+console.log("Your " + itemDescription + " was originally $" + originalPrice + ", but after a " + discountPercent + "% discount, it is now $" + discountedPrice + " without tax, and $" + totalWithTax + " with tax.");
+
