@@ -10,6 +10,11 @@ var sparkysDogYears = sparkysHumanYears * 7;
 
 console.log("Sparky is " + sparkysHumanYears + " human years old which is " + sparkysDogYears + " in dog years.");
 
+
+
+
+
+
 //Calculate the amount of pizza each partygoer will receive
 
 var pizzaAmount = 3;
@@ -27,5 +32,19 @@ var slicesServed = pizzaSlices / pizzaEaters;
 
 console.log("Each person ate " + slicesServed + " slices of pizza at the party.");
 
+//sparky eats the remaining slices
 
+var sparkySlices = pizzaSlices % pizzaEaters;
+
+//print how many slices sparky will get
+
+console.log("Sparky got " + sparkySlices + " slices of pizza.");
+
+
+
+
+
+
+
+//Calculate average shopping bill
 
