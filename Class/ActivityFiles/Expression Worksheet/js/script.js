@@ -63,3 +63,12 @@ console.log("You have spent a total of " + "$" + totalGrocery + " on groceries o
 
 
 
+
+//Calculate discounted price for an item
+
+var originalPrice = 10;
+var discountAmount = 20;
+var discountPercentage = discountAmount / 100;
+var salesTax = 9;
+
+console.log(discountPercentage);
