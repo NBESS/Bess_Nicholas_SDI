@@ -1,3 +1,4 @@
+/*
 //Convert dog years to human years
 
 var sparkysHumanYears = 6;
@@ -11,10 +12,10 @@ var sparkysDogYears = sparkysHumanYears * 7;
 console.log("Sparky is " + sparkysHumanYears + " human years old which is " + sparkysDogYears + " in dog years.");
 
 
+*/
 
 
-
-
+/*
 //Calculate the amount of pizza each partygoer will receive
 
 var pizzaAmount = 3;
@@ -40,12 +41,12 @@ var sparkySlices = pizzaSlices % pizzaEaters;
 
 console.log("Sparky got " + sparkySlices + " slices of pizza.");
 
+*/
 
 
 
 
-
-
+/*
 //Calculate average shopping bill
 
 var weeklyTotals = [300, 325, 350, 300, 285];
@@ -99,4 +100,9 @@ var taxAmount = discountedPrice * taxPercentage;
 var totalWithTax = discountedPrice + taxAmount;
 
 console.log("Your " + itemDescription + " was originally $" + originalPrice + ", but after a " + discountPercent + "% discount, it is now $" + discountedPrice + " without tax, and $" + totalWithTax + " with tax.");
+*/
+
+
+
+
 
