@@ -11,6 +11,7 @@
  * purchasing up to 3 items at a discounted rate (the code will still yield the correct amount if the discount is 0%.
  */
 
+
 var walletAmount           = prompt("Enter your spending budget.");  // asks the user to input the total amount of cash on-hand for purchase
 var discountPercent        = prompt("Enter the percent of the discount.");  // receives the percent of the discount from the user
 discountPercent           /= 100;  // divides the percent by 100 to convert into a floating-point number (i.e.. 10 / 100 = .1)
@@ -29,6 +30,15 @@ alert("You will spend $" + discountedPrice + ".");  // displays the amount that 
 console.log("You will spend $" + discountedPrice + ".");  // prints the amount that will be subtracted from the users wallet to the console
 
 
+walletAmount -= discountedPrice;  // subtracts the amount of the purchase from the original amount. This provides the remaining balance of the wallet!
+alert("This will leave you with $" + walletAmount + " remaining in your wallet.");  // displays the remaining balance of the wallet in the browser
+console.log("This will leave you with $" + walletAmount + " remaining in your wallet.");  // prints the remaining balance to the console
 
-
-// Enter Final Result Here
+/* Test Values:
+ *
+ * I typed 100 for spending budget, 25 for percent of discount
+ * 30,20 and 40 for the first, second, and third items respectively
+ * The amount spent on the purchase was $67.5
+ * The remaining balance in the wallet was 32.5
+ *
+ */
