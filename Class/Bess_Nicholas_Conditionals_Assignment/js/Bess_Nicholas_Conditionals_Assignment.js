@@ -7,6 +7,8 @@
 //Calculate the annual depreciation of office equipment, then determine if it should be retained or replaced.
 //if the depreciation is less than 55% it will be retained; if greater than 55% it will be replaced.
 
+//The formula for determining depreciation is (Cost - Salvage Value) / Estimated Useful Life
+
 var equipmentCost           = Number(prompt("Enter the cost of the office item."));       //user inputs the cost of item
 
 
@@ -25,9 +27,17 @@ var replacementAmount       = equipmentCost * .55;      //calculates 55% of equi
 //console.log(replacementAmount);     //verifies that the equipment cost is calculated correctly for each condition
 
 
+var salvageValue            = Number(prompt("Enter the salvage value of the office item."));       //user inputs the salvage value of item
 
 
+if(salvageValue === 0){       //validate the users entry
+    salvageValue = Number(prompt("Please enter an amount!"));     //users second opportunity to input an amount
+    console.log("Your item's salvage value is $" + salvageValue);       //prints the cost of the item to the console
 
+}else {
+    console.log("The item you entered has a salvage value of $" + salvageValue);        //prints to console if the user inputs a number greater than 0 on first prompt
+
+}
 
 
 
