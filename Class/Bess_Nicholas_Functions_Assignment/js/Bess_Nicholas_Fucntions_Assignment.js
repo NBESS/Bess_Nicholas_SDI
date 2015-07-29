@@ -60,7 +60,7 @@ function lottoNumberGenerator(min, max, num){       //function to generate a ran
 myTicket =  ticketValidation(myTicket);     //sends my ticket through function to validate user input
 
 alert("You have played "+ myTicket + "\n\nGood Luck!");     //displays ticket type message in browser
-console.log("You have played "+ myTicket + "\n\nGood Luck!");       //prints ticket type meassage to console
+console.log("You have played "+ myTicket + "\n\nGood Luck!");       //prints ticket type message to console
 
 if (myTicket === "Florida Lottery"){        //if it is true that user inputs a Florida Lottery ticket
 
@@ -69,15 +69,15 @@ if (myTicket === "Florida Lottery"){        //if it is true that user inputs a F
     alert("The winning Florida lottery numbers are: " + floridaLotteryNumbers[0]  + ", " + floridaLotteryNumbers[1] + ", " +  floridaLotteryNumbers[2] + ", " +  floridaLotteryNumbers[3] + ", " +  floridaLotteryNumbers[4] + ", " +  floridaLotteryNumbers[5]);        //the winning FL numbers are displayed in the browser
     console.log("The winning Florida lottery numbers are: " + floridaLotteryNumbers[0] + ", " +  floridaLotteryNumbers[1] + ", " +  floridaLotteryNumbers[2] + ", " +  floridaLotteryNumbers[3] + ", " +  floridaLotteryNumbers[4] + ", " +  floridaLotteryNumbers[5]);      //the winning FL numbers are printed to the console
 
+}else{      //if the users ticket is not FL it has to be for Powerball
+
+    powerBallNumbers = lottoNumberGenerator(1, 59, 5);      //the array is assigned 5 numbers between 1 and 59, output from the function
+    powerBall = lottoNumberGenerator(1, 35, 1);     //the array is assigned 1 number between 1 and 35, output from the function
+
+    alert("The winning Powerball numbers are: " + powerBallNumbers[0] + ", " + powerBallNumbers[1] + ", " +  powerBallNumbers[2] + ", " +  powerBallNumbers[3] + ", " +  powerBallNumbers[4] + ", and the Powerball is " + powerBall[0]);       //the winning Powerball numbers are displayed in the browser
+    console.log("The winning Powerball numbers are: " + powerBallNumbers[0] + ", " + powerBallNumbers[1] + ", " +  powerBallNumbers[2] + ", " +  powerBallNumbers[3] + ", " +  powerBallNumbers[4] + ", and the Powerball is " + powerBall[0]);     //the winning Powerball numbers are printed to the console
+
 }
-
-
-
-
-
-
-
-
 
 
 
