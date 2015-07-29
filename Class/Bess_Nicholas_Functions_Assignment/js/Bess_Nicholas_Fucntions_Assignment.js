@@ -57,20 +57,25 @@ function lottoNumberGenerator(min, max, num){       //function to generate a ran
 
 }
 
+myTicket =  ticketValidation(myTicket);     //sends my ticket through function to validate user input
+
+alert("You have played "+ myTicket + "\n\nGood Luck!");     //displays ticket type message in browser
+console.log("You have played "+ myTicket + "\n\nGood Luck!");       //prints ticket type meassage to console
+
+if (myTicket === "Florida Lottery"){        //if it is true that user inputs a Florida Lottery ticket
+
+    floridaLotteryNumbers = lottoNumberGenerator(1, 53, 6);     //the array is assigned 6 random numbers between 1 and 53, output from the function
+
+    alert("The winning Florida lottery numbers are: " + floridaLotteryNumbers[0]  + ", " + floridaLotteryNumbers[1] + ", " +  floridaLotteryNumbers[2] + ", " +  floridaLotteryNumbers[3] + ", " +  floridaLotteryNumbers[4] + ", " +  floridaLotteryNumbers[5]);        //the winning FL numbers are displayed in the browser
+    console.log("The winning Florida lottery numbers are: " + floridaLotteryNumbers[0] + ", " +  floridaLotteryNumbers[1] + ", " +  floridaLotteryNumbers[2] + ", " +  floridaLotteryNumbers[3] + ", " +  floridaLotteryNumbers[4] + ", " +  floridaLotteryNumbers[5]);      //the winning FL numbers are printed to the console
+
+}
 
 
 
 
 
 
-
-
-
-
-
-
-
-//main code
 
 
 
