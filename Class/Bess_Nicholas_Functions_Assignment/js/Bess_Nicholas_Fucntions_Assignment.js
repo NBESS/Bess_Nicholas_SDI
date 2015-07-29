@@ -28,7 +28,7 @@ function ticketValidation(ticketType) {     //function to validate ticket type
 
         clickCounter++;     //increases each time loop is true
 
-        if (clickCounter = 4) {       //when empty string is detect 4th time
+        if (clickCounter === 4) {       //when empty string is detect 4th time
 
             break;      //the loop breaks
 
@@ -79,7 +79,7 @@ if (myTicket === "Florida Lottery"){        //if it is true that user inputs a F
 
 }
 
-console.log("If you believe you may have a gambling problem, call 1 - 800 - GETHELP!");     //a public service announcement is printed to the console
+alert("If you believe you may have a gambling problem, call 1 - 800 - GETHELP!");     //a public service announcement is printed to the console
 console.log("If you believe you may have a gambling problem, call 1 - 800 - GETHELP!");     //a public service announcement is printed to the console
 
 
