@@ -79,6 +79,13 @@ if (myTicket === "Florida Lottery"){        //if it is true that user inputs a F
 
 }
 
+console.log("If you believe you may have a gambling problem, call 1 - 800 - GETHELP!");     //a public service announcement is printed to the console
+console.log("If you believe you may have a gambling problem, call 1 - 800 - GETHELP!");     //a public service announcement is printed to the console
 
 
-//test values
+/*  Test Results:  
+
+FL: "The winning Florida lottery numbers are: 9, 41, 45, 19, 28, 4"
+ Powerball: "The winning Powerball numbers are: 57, 21, 19, 48, 34, and the Powerball is 19"  
+
+*/
