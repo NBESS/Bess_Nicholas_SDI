@@ -42,6 +42,26 @@ function ticketValidation(ticketType) {     //function to validate ticket type
 }
 
 
+function lottoNumberGenerator(min, max, num){       //function to generate a random number with a min, max and num (number of occurrences)
+
+    var lottoBall = [];     //declares an array
+
+    for (var i = 0 ; i < num ; i++){        //for loop that is true while the array has an assigned value of num
+
+        lottoBall[i] = Math.random() * (max - min) + min;       //generates a random number to each occurrence of the array set by the parameters (max-min) + min
+        lottoBall[i] = Math.round(lottoBall[i]);        //sets a parameter to round the random number to the nearest whole number
+
+    }
+
+    return lottoBall;       //assigns the output of the function to an array and returns it to function
+
+}
+
+
+
+
+
+
 
 
 
